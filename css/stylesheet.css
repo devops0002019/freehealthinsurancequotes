@@ -10,8 +10,7 @@
 
   [class*="column"].header-title {
       text-align: center;
-      text-shadow: 1px 1px #000;    
-      --h1-color: #fff !important;
+      --h1-color: #000 !important;
   }
 
 

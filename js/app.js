@@ -1,7 +1,7 @@
-document.documentElement.style .setProperty('--primary', '#fed766');
+document.documentElement.style .setProperty('--primary', '#c0c2ce');
 document.documentElement.style .setProperty('--secondary', '#ddd');
 document.documentElement.style .setProperty('--tertiary', '#FAFAFA');
-document.documentElement.style .setProperty('--quaternary', '#FAFAFA');
+document.documentElement.style .setProperty('--quaternary', '#7a7aff');
 document.documentElement.style .setProperty('--border', '#d8d8d8');
 document.documentElement.style .setProperty('--page-max-width', '1366px');
 document.documentElement.style .setProperty('--navbar-background', '#fff');
@@ -23,8 +23,8 @@ const navbar_data = [
 ];
 function navbar_template(navbar) {
   return `
-      <a class="button" href="https://mystifying-hodgkin-910950.netlify.com/">Get a Quote</a>
-      <h3>${navbar.brand}</h3>
+      
+      <h3 class="text-quaternary">${navbar.brand}</h3>
 `;
 }
 

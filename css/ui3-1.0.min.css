@@ -2440,6 +2440,25 @@ responsive text code !!!
     color: #000 !important;
 }
 
+.text-primary {
+    color: var(--primary) !important;
+}
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+
+.text-tertiary {
+    color: var(--tertiary) !important;
+}
+
+.text-quaternary {
+    color: var(--quaternary) !important;
+}
+
+
+
+
 
 
 
