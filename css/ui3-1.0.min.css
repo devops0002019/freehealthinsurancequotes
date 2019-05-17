@@ -170,7 +170,11 @@ a.brand > * {
 
     --bg-gradient-7: #000;
     --bg-gradient-7: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(1, 7, 10, 0.71), rgba(0, 0, 0, 0.77));
-    --bg-gradient-7: linear-gradient(to right, rgba(0, 1, 2, 0.78), rgba(0, 0, 0, 0.81), rgba(5, 6, 13, 0.72));
+	--bg-gradient-7: linear-gradient(to right, rgba(0, 1, 2, 0.78), rgba(0, 0, 0, 0.81), rgba(5, 6, 13, 0.72));
+	
+	--bg-gradient-8: #000;
+    --bg-gradient-8: -webkit-linear-gradient(to right, rgba(0, 0, 65, 0.72), rgba(0, 0, 65, 0.72), rgba(0, 0, 65, 0.72));
+    --bg-gradient-8: linear-gradient(to right, rgba(0, 0, 65, 0.72), rgba(0, 0, 65, 0.72), rgba(0, 0, 65, 0.72));
 
 }
 
@@ -258,7 +262,7 @@ a.brand > * {
 
 
 [class*="deep-both"][class*="1"] {
-    background-image: var(--bg-gradient-1), url('/img/img1.jpg');
+    background-image: var(--bg-gradient-8), url('/img/img1.jpg');
 }
 
 
@@ -2483,6 +2487,11 @@ responsive text code !!!
 .text-black {
     color: #000 !important;
 }
+
+.text-blue {
+    color: var(--blue) !important;
+}
+
 
 .text-primary {
     color: var(--primary) !important;

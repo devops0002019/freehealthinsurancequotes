@@ -1,11 +1,11 @@
-document.documentElement.style .setProperty('--primary', '#c0c2ce');
+document.documentElement.style .setProperty('--primary', 'white');
 document.documentElement.style .setProperty('--secondary', '#ddd');
 document.documentElement.style .setProperty('--tertiary', '#FAFAFA');
-document.documentElement.style .setProperty('--quaternary', '#7a7aff');
+document.documentElement.style .setProperty('--quaternary', 'darkblue');
 document.documentElement.style .setProperty('--border', '#d8d8d8');
 document.documentElement.style .setProperty('--page-max-width', '1366px');
 document.documentElement.style .setProperty('--navbar-background', '#fff');
-document.documentElement.style .setProperty('--navbar-text-color', '#000');
+document.documentElement.style .setProperty('--navbar-text-color', '#fff');
 document.documentElement.style .setProperty('--header-background', 'transparent');
 document.documentElement.style .setProperty('--header-text-color', 'white');
 document.documentElement.style .setProperty('--footer-background', 'white');
